@@ -21,6 +21,7 @@ int main(){
         getline(cin, a[i].name);
         cin>>a[i].clss>>a[i].marks;
     }
+    //ekhane a hocce array zar moddhye n songkhok Student er object ache. a[i] mane hocce array a er i tomo index er kuno ekti Student data type er object. tahole a[i] hocce ekta object. ar ekti object er value .(dot) diye access korte hoy.
     for(int i=0; i<n; i++){
         cout<<a[i].name<<" "<<a[i].clss<<" "<<a[i].marks<<endl;
     }
