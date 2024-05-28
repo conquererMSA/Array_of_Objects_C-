@@ -1,7 +1,4 @@
 3
-Adeel Fatih
-9 98
-Muhammad SA
-10 94
-Socrates JJ
-12 91
+Adeel 9 98
+Muhammad 10 94
+Socrates 12 91
