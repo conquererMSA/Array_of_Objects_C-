@@ -16,11 +16,19 @@ int main(){
     }
     //make comparison object
     Student mn;
-    mn.marks=INT_MAX;
+    Student max;
+    mn.marks=INT_MAX; // for minimum
+    max.marks=INT_MIN; // for maximum
     for(int i=0; i<n; i++){
+        //findout minimum marks contain object
         if(a[i].marks<mn.marks)
         mn=a[i];
+       // findout maximum marks contain object
+       if(a[i].marks>max.marks){
+         max=a[i];
+       }
     }
-    cout<<mn.name<<" "<<mn.roll<<" "<<mn.marks<<endl;
+    cout<<"minimum marks: "<<mn.name<<" "<<mn.roll<<" "<<mn.marks<<endl;
+    cout<<"maximum marks: "<<max.name<<" "<<max.roll<<" "<<max.marks<<endl;
     return 0;
 }

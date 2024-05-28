@@ -1,1 +1,2 @@
-Socrates 12 91
+minimum marks: Socrates 12 91
+maximum marks: Adeel 9 98
