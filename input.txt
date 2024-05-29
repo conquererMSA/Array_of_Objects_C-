@@ -1,4 +1,4 @@
 3
-Adeel 9 98
-Muhammad 10 94
-Socrates 12 91
+Adeel 25 98
+Muhammad 6 98
+Socrates 1 98
